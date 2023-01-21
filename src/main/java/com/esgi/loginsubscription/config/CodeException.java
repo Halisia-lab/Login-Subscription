@@ -1,0 +1,34 @@
+package com.esgi.loginsubscription.config;
+
+/**
+ * Classe contenant la liste des variables utilisées par le backend
+ */
+public class CodeException {
+
+    public static final String CHANGEMENT_STATUT_IMPOSSIBLE = "FUNC_CHANGEMENT_STATUT_IMPOSSIBLE";
+    public static final String ENTITY_NOT_FOUND = "FUNC_ENTITY_NOT_FOUND";
+    public static final String UPDATE_ENTITY_IMPOSSIBLE_NOT_ALREADY_PERSISTED = "FUNC_UPDATE_ENTITY_IMPOSSIBLE_NOT_ALREADY_PERSISTED";
+    public static final String DEMANDE_FOR_SESSION_NOT_FOUND = "FUNC_DEMANDE_FOR_SESSION_NOT_FOUND";
+    public static final String BAD_ID = "FUNC_BAD_ID";
+    public static final String ENTITY_ALREADY_EXISTING = "FUNC_ENTITY_ALREADY_EXISTING";
+    public static final String COLLABORATEUR_ALREADY_EXISTING = "FUNC_COLLABORATEUR_ALREADY_EXISTING";
+    public static final String CREATION_SESSION_IMPOSSIBLE_DEMANDE_NON_VALIDEE = "FUNC_CREATION_SESSION_IMPOSSIBLE_DEMANDE_NON_VALIDEE";
+    public static final String STATUT_PLANIFIEE_IMPOSSIBLE_DATE_FORMATION_NON_COMPATIBLE = "FUNC_STATUT_PLANIFIEE_IMPOSSIBLE_DATE_FORMATION_NON_COMPATIBLE";
+    public static final String STATUT_EFFECTUEE_IMPOSSIBLE_DATE_FORMATION_NON_COMPATIBLE = "FUNC_STATUT_EFFECTUEE_IMPOSSIBLE_DATE_FORMATION_NON_COMPATIBLE";
+    public static final String STATUT_PLANIFIEE_IMPOSSIBLE_ORGANISME_MANQUANT = "FUNC_STATUT_PLANIFIEE_IMPOSSIBLE_ORGANISME_MANQUANT";
+    public static final String TOKEN_NON_VALIDE = "FUNC_TOKEN_NON_VALIDE";
+    public static final String UNSUCCESSFUL_LOGIN = "FUNC_UNSUCCESSFUL_LOGIN";
+    public static final String ACCESS_DENIED = "FUNC_ACCESS_DENIED";
+    public static final String WRONG_DATE_LOGIC = "FUNC_WRONG_DATE_LOGIC";
+    public static final String MODIFICATION_IMPOSSIBLE = "FUNC_MODIFICATION_IMPOSSIBLE";
+    public static final String WRONG_FORM_DATA = "FUNC_WRONG_FORM_DATA";
+    public static final String WRONG_CAMPAGNE_YEAR = "FUNC_WRONG_CAMPAGNE_YEAR";
+    public static final String GENERAL_ERROR = "FUNC_GENERAL_ERROR";
+
+
+    public static final String EXPORT_ERROR = "TECH_EXPORT_ERROR";
+    public static final String ENTITY_CREATION_ERROR = "TECH_ENTITY_CREATION_ERROR";
+
+}
+
+
