@@ -8,11 +8,11 @@ ${URI}            http://localhost:8083
 
 *** Test Cases ***
 SAVE USER AND CONNECT
-    SAVE USER    user6    password123
-    CONNECT USER    user6    password123
+    SAVE USER    user7    password123
+    CONNECT USER    user7    password123
 
 GET USERS
-    ${response}=    CONNECT USER    user6    password123
+    ${response}=    CONNECT USER    user7    password123
     Status Should Be    200    ${response}
     ${resultJson}=    GET Value From Json    ${response.json()}    accessToken
     ${token}=    Get From List    ${resultJson}    0
