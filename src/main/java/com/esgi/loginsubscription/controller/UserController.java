@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @RestController
-@RequestMapping("/api")
+@RequestMapping
 @RequiredArgsConstructor
 public class UserController {
     @Autowired
@@ -28,7 +28,7 @@ public class UserController {
     @Autowired
     private final ModelMapper modelMapper;
 
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+
     @GetMapping(path ="/users",produces = {MediaType.APPLICATION_JSON_VALUE})
     public ResponseEntity<List<UserResponse>>getUsers(){
         List<User> users = userService.getUsers();

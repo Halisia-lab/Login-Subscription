@@ -24,7 +24,7 @@ public class CodeException {
     public static final String WRONG_FORM_DATA = "FUNC_WRONG_FORM_DATA";
     public static final String WRONG_CAMPAGNE_YEAR = "FUNC_WRONG_CAMPAGNE_YEAR";
     public static final String GENERAL_ERROR = "FUNC_GENERAL_ERROR";
-
+    public static final String UNSUCCESSFUL_SIGNUP = "FUNC_UNSUCCESSFUL_SIGNUP";
 
     public static final String EXPORT_ERROR = "TECH_EXPORT_ERROR";
     public static final String ENTITY_CREATION_ERROR = "TECH_ENTITY_CREATION_ERROR";

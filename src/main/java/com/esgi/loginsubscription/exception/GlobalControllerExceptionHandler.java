@@ -113,6 +113,7 @@ public class GlobalControllerExceptionHandler implements AccessDeniedHandler {
         return exceptionResponse;
     }
 
+
     /**
      * Méthode permettant de gérer les AccessDenied provoqué par les permissions dans les contrôleurs
      * Définition de la méthode de l'interface AccessDeniedHandler
