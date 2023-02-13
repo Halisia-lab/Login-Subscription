@@ -1,6 +1,5 @@
 *** Settings ***
 
-#library
 Library           DatabaseLibrary
 
 *** Variables ***
