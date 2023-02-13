@@ -1,5 +1,5 @@
 *** Settings ***
-
+#lib
 Library           DatabaseLibrary
 
 *** Variables ***
